@@ -9,7 +9,7 @@ char* get_hwid(char hwid[]) {
 }
 
 void usage() {
-	printf("Usage: hwid.exe [-h] [-g] [-b %] [-s]\r\n\t-h | show the current window\r\n\t-g | get the hwid of the computer\r\n\t-b [to_file] | make a backup of hwid\r\n\t-s [new_hwid] | install a new hwid\r\n\t\tConsists of a range of: a-f and 0-9\r\n\t\tExample: \"{01234567-89ab-cdef-0123-456789abcdef}\"");
+	printf("Usage: hwid.exe [-h] [-g] [-b %] [-s %]\r\n\t-h | show the current window\r\n\t-g | get the hwid of the computer\r\n\t-b [to_file] | make a backup of hwid\r\n\t-s [new_hwid] | install a new hwid\r\n\t\tConsists of a range of: a-f and 0-9\r\n\t\tExample: \"{01234567-89ab-cdef-0123-456789abcdef}\"");
 }
 
 int main(int argc, char *argv[]) {
