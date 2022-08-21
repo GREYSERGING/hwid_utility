@@ -24,7 +24,7 @@ Usage: hwid.exe [-h] [-g] [-b %] [-s]
 
 ## Example
 ```
- hwid.exe -g
- hwid.exe -b hwid.txt
- hwid.exe -s {e24a567f-3134-77ae-272a-505a4fbc57d3}
+hwid.exe -g
+hwid.exe -b hwid.txt
+hwid.exe -s {e24a567f-3134-77ae-272a-505a4fbc57d3}
 ```
