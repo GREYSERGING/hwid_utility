@@ -13,7 +13,7 @@ gcc hwid.c -o hwid
 
 ## Using
 ```
-Usage: hwid.exe [-h] [-g] [-b %] [-s]
+Usage: hwid.exe [-h] [-g] [-b %] [-s %]
   -h | show the current window
   -g | get the hwid of the computer
   -b [to_file] | make a backup of hwid
