@@ -16,10 +16,10 @@ gcc hwid.c -o hwid
 Usage: hwid.exe [-h] [-g] [-b %] [-s]
   -h | show the current window
   -g | get the hwid of the computer
-  -b [to_file] | make a backup of hwid\
+  -b [to_file] | make a backup of hwid
   -s [new_hwid] | install a new hwid
     Consists of a range of: a-f and 0-9
-    Example: \"{01234567-89ab-cdef-0123-456789abcdef}\"
+    Example: "{01234567-89ab-cdef-0123-456789abcdef}"
 ```
 
 ## Example
